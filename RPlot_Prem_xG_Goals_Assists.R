@@ -25,7 +25,7 @@ ggplot() +
                                     , y = Goals
                                     , size = Assists)
              , shape = 21
-             , fill ="orange"
+             , fill ="red"
              , alpha = 0.6) +
   geom_text(data=Prem_subset1, mapping=aes(x=xG_BT, y=Goals, label=scorer), size=2, vjust=-1, hjust=0.9) +
   geom_text(data=Prem_subset2, mapping=aes(x=xG_BT, y=Goals, label=scorer), size=2, vjust=2, hjust=0) +
